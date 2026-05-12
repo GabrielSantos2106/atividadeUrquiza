@@ -7,7 +7,7 @@ function formularioFiltroMusicas() {
     $ano     = htmlspecialchars($_GET['ano']     ?? '', ENT_QUOTES, 'UTF-8');
 
     echo "
-    <form method='GET' class='row g-3 mb-4'>
+    <form method='GET' class='filtro-form row g-3'>
         <input type='hidden' name='page' value='musicas'>
 
         <div class='col-md-4'>

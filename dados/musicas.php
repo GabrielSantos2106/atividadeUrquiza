@@ -54,4 +54,5 @@ $musicas = [
     ["titulo"=>"Skyfall","artista"=>"Adele","genero"=>"Pop","ano"=>2012],
     ["titulo"=>"Counting Stars","artista"=>"OneRepublic","genero"=>"Pop","ano"=>2013],
     ["titulo"=>"Apologize","artista"=>"OneRepublic","genero"=>"Pop","ano"=>2007],
+    ["titulo"=>"Under the Bridge","artista"=>"Red Hot Chili Peppers","genero"=>"Rock","ano"=>1992],
 ];

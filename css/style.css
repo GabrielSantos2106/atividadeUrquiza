@@ -1,53 +1,76 @@
 body {
-    background-color: #0f172a;
-    color: #e2e8f0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #212121 !important;
+}
+
+.navbar-brand {
+    color: #ffffff !important;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #cccccc !important;
+}
+
+.nav-link:hover {
+    color: #ffffff !important;
 }
 
 h2 {
-    margin-bottom: 25px;
-    font-weight: 700;
+    margin-bottom: 20px;
+    color: #212121;
 }
 
-/* Navbar */
-.navbar {
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+/* Formulário */
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 6px;
+    border: 1px solid #dddddd;
+    margin-bottom: 20px;
 }
 
-/* Tabela */
-.table {
-    --bs-table-bg: #1e293b;
-    --bs-table-striped-bg: #243047;
-    --bs-table-hover-bg: #2d3f5a;
-    --bs-table-color: #e2e8f0;
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-.table thead th {
-    background-color: #0ea5e9;
-    color: #fff;
-    border: none;
-}
-
-/* Formulário de filtro */
-.filtro-input {
-    background-color: #334155;
-    border: none;
-    color: #e2e8f0;
-}
-
-.filtro-input:focus {
-    background-color: #3d4f6b;
-    color: #e2e8f0;
-    border-color: #0ea5e9;
-    box-shadow: 0 0 0 0.2rem rgba(14, 165, 233, 0.25);
-}
-
-.filtro-input::placeholder {
-    color: #94a3b8;
+.form-control {
+    border-radius: 4px;
 }
 
 .btn-filtrar {
-    /* Scoped apenas ao botão de filtro, não afeta outros botões */
+    background-color: #e65100;
+    color: #ffffff;
+    border: none;
+    width: 100%;
+    font-weight: bold;
+}
+
+.btn-filtrar:hover {
+    background-color: #bf360c;
+    color: #ffffff;
+}
+
+/* Tabela */
+.table thead th {
+    background-color: #e65100;
+    color: #ffffff;
+}
+
+.table tbody tr:hover {
+    background-color: #eeeeee;
+}
+
+.resultado-count {
+    color: #666666;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+.alert-vazio {
+    background-color: #fff3e0;
+    border: 1px solid #ffcc80;
+    border-radius: 6px;
+    padding: 15px;
+    color: #e65100;
 }
